@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+  
+}
+.loginContainer{
+    height: 450px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #F8F4EA;
+}
+.loginHeaderContainer{
+    height: 25%;
+    padding: 5px;
+    display: flex;
+}
+.loginImageContainer{
+    width: 35%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+   
+}
+#loginImageContent{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+.loginTitleContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.loginInputContainer{
+    padding: 20px;
+   
+}
+.loginFooterContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.loginFooterRemarks{
+   
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Navbar area */
+
+.navbarContainer{
+    display: flex;
+    height: 10vh;
+    background-color: #4F98CA;
+}
+.navbarLogo{
+    width: 7%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px;
+}
+#logo{
+    border-radius: 50px;
+}
+.navbarTitle{
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    letter-spacing: 3px;
+   
+}
+.LiveTimeContainer{
+    width: 40%;
+    display: flex;
+}
+.iconmod{
+    width: 40px;
+    height: 40px;
+}
+.LiveTimeIconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+   
+}
+.clockformatBtn{
+    width: 90%;
+    height: 40%;
+    border: none;
+    background-color: #4F98CA;
+}
+.clockformatBtn:hover{
+    background-color:#248cd1 ;
+    border-radius: 20px;
+
+}
+.LiveTimeCurrentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+   
+}
+.glow ,.clockformatBtn{
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #00008B, 0 0 20px #00008B, 0 0 30px #00008B, 0 0 40px #00008B, 0 0 50px #00008B, 0 0 60px #00008B, 0 0 70px #00008B;
+    }
+
+    to {
+        text-shadow: 0 0 20px #00008B, 0 0 30px #00008B, 0 0 40px #00008B, 0 0 50px #00008B, 0 0 60px #00008B, 0 0 70px #00008B, 0 0 80px #00008B;
+    }
+}
+.livedateContainer{
+    width: 50%;
+    
+}
+.livedatesectionupper{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.livedatesection {
+    width: 100%;
+    height: 50%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;  
+}
+#days {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+#days li {
+    display: inline-block; 
+   
+}
+ul li{
+    margin: 5px;
+    display: inline-block;
+}
+/* .navbarContent{
+    border: 1px solid black;
+    height: 10vh;
+} */
+
+/* main body content area */
+.bodyContainer{
+     display: flex;
+     font-size: 16px;
+}
+.sidebarContainer{
+   background-color: #F8F4EA;
+    height: 80vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sidebarIconContainer{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.sidebarIconContainer :hover{
+    background-color: gray;
+}
+.sidebarLogoutContainer :hover{
+    background-color: gray;
+}
+.btncontainer{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    /* justify-content: center;
+    align-items: center; */
+    height: 13%;
+    width: 100%;
+    border-radius: 10px;
+}
+.sidebarIcon{
+  
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconLabel{
+    /* border: 1px dotted grey; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.sidebarLogoutContainer{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    padding: 10px;
+   
+}
+/* Insert and webcam area  */
+.mainContentContainer{
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+}
+.bodyInsertContent{
+    height: 80vh;
+    width: 50%;
+}
+.InsertContentuppercontainer,.InsertContentlowercontainer{
+    width: 100%;
+    height: 50%;
+}
+.cameracontainer{
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+.videocameracontainer,.capturedimagecontainer{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black;  */
+}
+.videocameraheadercontainer,.capturedcameraheadercontainer{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.postioncontainer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   /* border: 1px solid gray; */
+}
+.videoposition{
+    width: 420px;
+    height: 280px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+
+}
+@media screen and (max-height: 900px) {
+    .videoposition{
+        width: 340px;
+        height: 240px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+  }
+.camerabuttoncontainer{
+    width: 100%;
+    height: 10%;
+   
+    display: flex;
+}
+.videobtncontainer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* kenneth edit starts InsertContentlowercontainer  */
+.InsertFormContainer{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+
+}
+.formContainer{
+    height: 100%;
+    box-shadow: rgba(15, 15, 15, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color:#F8F4EA ;
+}
+.InsertHeaderContainer{
+    display: flex;
+    justify-content: center;
+    height: 8%;
+}
+.InsertHeaderDetails{
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.InsertFullnameWrapper,.InsertPurposeWrapper,.InsertPlateNumberWrapper,.InsertButtonWrapper{
+    height: 23%;
+    display: flex;
+}
+.InsertFullnameContainer,.InsertDestinationContainer,.InsertPurposeContainer,.InsertVisitorPassContainer,.InsertPlateNumberContainer,.InsertRemarksContainer,.InsertImageContainer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    font-weight: bold;
+}
+.InsertButtonContainer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.InsertFullnameDetails,.InsertDestinationDetails,.InsertPurposeDetails,.InsertVistorPassDetails,.InsertPlateNumberDetails,.InsertRemarksDetails,.InsertImageDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+/* table area  */
+.bodyTableContent{
+    height:80vh;
+    width: 50%;
+    overflow: auto;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-size: 15px;
+   
+}
+.footerContainer{
+  border: 1px solid gray;
+    background-color: #4F98CA;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* archive.php area */
+.archiveContainer{
+    width: 90vw;
+    height: 80vh;
+    padding: 50px;
+    font-size: 16px;
+}
+.archivetableContainer{
+    box-shadow: rgba(49, 52, 54, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 100%;
+    padding: 60px;
+    height: 100%;
+    overflow: auto;
+}
+.zoomable-image {
+    max-width: 100%;
+    transition: transform 0.2s;
+  }
+
+  .zoomable-image:hover {
+    transform: scale(1.9); /* Increase the scale factor for stronger zoom */
+    cursor: pointer;
+  }
+/* location.php area */
+.locationtableContainer{
+    box-shadow: rgba(49, 52, 54, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 100%;
+    padding:35px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 17px !important;
+} 
+.addDestinationContainer{
+    height: 8%;
+    display: flex;
+    align-items: center;
+
+}
+.destinationiconContent{
+    width: 100%;
+    display: flex;
+    
+}
+.tablelocationContainer{
+    height: 92%;
+}
