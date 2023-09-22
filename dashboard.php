@@ -21,7 +21,7 @@
                     <img src="./img/chmsulogo.png" alt="CHMSU" id="logo">
                 </div>
                 <div class="navbarTitle" style="white-space: nowrap;">
-                    <h4>CARLOS HILADO MEMORIAL STATE UNIVERSITY</h4>
+                    <h4>CARLOS HILADO MEMORIAL STATE UNIVERSITYa</h4>
                     <h6>VISITOR'S LOG SYSTEM</h6>
                 </div>
                <?php
